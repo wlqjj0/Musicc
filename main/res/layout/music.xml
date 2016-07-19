@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ht"
+    android:id="@+id/Re2">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#60ffffff"
+    android:id="@+id/Re1">
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/bu1"
+        android:background="@drawable/play"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/next"
+        android:id="@+id/next"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/bu1"
+        android:layout_toEndOf="@+id/bu1" />
+
+        <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seek"
+        android:layout_above="@+id/bu1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/te2"
+        android:layout_alignEnd="@+id/te2" />
+
+         <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:id="@+id/te1"
+        android:layout_alignTop="@+id/seek"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="23dp" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:00"
+        android:id="@+id/te2"
+        android:layout_alignBottom="@+id/te1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/te3"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/bu1"
+        android:layout_alignStart="@+id/bu1"
+        android:layout_marginTop="74dp" />
+
+         <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/previous"
+        android:background="@drawable/previous"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/te3"
+        android:layout_alignEnd="@+id/te3" />
+
+        <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/im1"
+            android:background="#78ADD8E6"
+        android:layout_below="@+id/te3"
+        android:layout_centerHorizontal="true"
+        />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="歌曲主题"
+        android:id="@+id/te4"
+            android:textSize="25dp"
+            android:textColor="#B0C4DE"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:id="@+id/te5"
+            android:textColor="#B0C4DE"
+            android:textStyle="bold"
+            android:layout_below="@+id/te4"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="一朵野花  随风摆荡"
+            android:textSize="18dp"
+            android:textColor="#B0C4DE"
+            android:id="@+id/textView"
+            android:layout_below="@+id/im1"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我撑着船儿逃离了北方"
+            android:textSize="18dp"
+            android:textColor="#B0C4DE"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="随手撕碎了往事"
+            android:textSize="18dp"
+            android:textColor="#B0C4DE"
+            android:id="@+id/textView3"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="还有你送的慌"
+            android:textSize="18dp"
+            android:textColor="#B0C4DE"
+            android:id="@+id/textView4"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

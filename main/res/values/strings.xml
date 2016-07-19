@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">简蓝Music</string>
+    <string name="music_duration">music_singer</string>
+    <string name="music_size">music_size</string>
+    <string name="music_singer">music_singer</string>
+    <string name="siger">点击列表</string>
+    <string name="time">播放歌曲吧</string>
+    <string name="music_title">music_title</string>
+</resources>
